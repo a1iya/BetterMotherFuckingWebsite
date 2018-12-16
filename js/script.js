@@ -6,3 +6,8 @@ window.onload = setTimeout(function() {
 	}
 }, 
 10000 /* wait 10 seconds before asking user. maybe he'll have time to read this amazing page */);
+
+function togglePsychedelic() {
+	var css = 'psychedelic'; // set the css class i'll use to set or unset the psychedelic mode
+	document.body.className = document.body.className == css ? '' : css; // test if body has the class or not, to set or unset.
+}
